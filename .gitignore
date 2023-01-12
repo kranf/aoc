@@ -1,0 +1,84 @@
+
+# Distribution
+dist/*
+!dist/.gitkeep
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage tools (istanbul)
+lib-cov
+coverage
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Typescript v1 declaration files
+typings/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
+.env
+.env.prod
+.env.preprod
+insert-data.sh
+
+# force IDE files for safety
+.vscode
+
+deployment.yaml
+
+# bundle should not be updated here, but in synapps-axons
+synapps-protos-bundle.json
+
+# ignore keys
+*.pub
+*.key
+
+# keep test keys for CI
+!test/bot-token.key
+!test/bot-token.pub
+
+# ignore pseudo bundle for test
+test/synapps-mock-bundle.json
+
+# development stub module
+*.stub.ts
+
+# local scrap files
+*scrap*
