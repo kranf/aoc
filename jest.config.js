@@ -4,7 +4,7 @@ module.exports = {
     clearMocks: true,
     moduleNameMapper: {
       "@src/(.*)": "<rootDir>/src/$1",
-      "@tempo/(.*)": "<rootDir>/src/tempo/$1",
+      "@2022/(.*)": "<rootDir>/src/2022/$1",
     },
   };
   

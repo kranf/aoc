@@ -23,7 +23,12 @@
     "noImplicitThis": true,
     "alwaysStrict": true,
     "noUnusedLocals": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": "./src",
+    "paths": {
+        "@src/*": ["./*"],
+        "@2022/*": ["./2022/*"]
+    }
   },
   "include": [
     "src/**/*",
