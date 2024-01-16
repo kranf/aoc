@@ -15,24 +15,24 @@
     "experimentalDecorators": true,
     "sourceMap": true,
     "pretty": true,
-    "suppressImplicitAnyIndexErrors": true,
     "noImplicitReturns": true,
     "noEmitOnError": true,
     "outDir": "dist/",
     "strictNullChecks": true,
     "noImplicitThis": true,
     "alwaysStrict": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./src",
     "paths": {
-        "@src/*": ["./*"],
-        "@2022/*": ["./2022/*"]
+        "@src/*": ["*"],
+        "@2022/*": ["2022/*"],
+        "@2023/*": ["2023/*"]
     }
   },
   "include": [
-    "src/**/*",
-    "test/**/*"
+    "src",
+    "tests"
   ],
   "exclude": [
     "node_modules"

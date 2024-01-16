@@ -1,5 +1,5 @@
 PUZZLE_DIR=$(dirname $(realpath $0))
-YEAR=2022
+YEAR=2023
 DAY_NUMBER=$1
 
 SOLUTION_TEMPLATE="$PUZZLE_DIR/src/solution.ts.template"

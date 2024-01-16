@@ -1,0 +1,31 @@
+import {loadInputData} from '@src/common'
+
+const YEAR = '2023'
+
+const PUZZLE01_FILE_NAME = 'input-day-01.txt'
+
+const PUZZLE01_Sample = 
+`
+
+`
+
+test('solvePuzzle01 - Example', () => {
+    const result = solvePuzzle02(PUZZLE01_EXAMPLE.split('\n'))
+    console.log(`${YEAR}D01P01 example Solution: ${result}`)
+});
+
+test('solvePuzzle01 - Solution', () => {
+    const input = loadInputData(PUZZLE01_FILE_NAME, YEAR)
+    const result = solvePuzzle01(input)
+    console.log(`${YEAR}D01P01 Solution: ${result}`)
+});
+
+test('solvePuzzle02 - Example', () => {
+    const result = solvePuzzle02(PUZZLE01_EXAMPLE.split('\n'))
+    console.log(`${YEAR}D01P02 example Solution: ${result}`)
+});
+
+test('solvePuzzle02 - Solution', () => {
+    const result = solvePuzzle02(PUZZLE01_EXAMPLE.split('\n'))
+    console.log(`${YEAR}D01P02 Solution: ${result}`)
+});
